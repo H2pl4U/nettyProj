@@ -1,4 +1,6 @@
-package rpc.common;
+package rpc.provider;
+
+import rpc.common.HelloService;
 
 /**
  * Created by Liuwei on 2020/7/20 14:06
