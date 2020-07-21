@@ -1,9 +1,11 @@
 package myprotocalv2;
 
+import java.io.Serializable;
+
 /**
  * Created by Liuwei on 2020/7/21 9:02
  */
-public class ProtocalEntity {
+public class ProtocalEntity implements Serializable {
     private Integer id;
     private String name;
     private String version;
@@ -39,5 +41,15 @@ public class ProtocalEntity {
 
     public void setParam(String param) {
         this.param = param;
+    }
+
+    @Override
+    public String toString() {
+        return "ProtocalEntity{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", version='" + version + '\'' +
+                ", param='" + param + '\'' +
+                '}';
     }
 }
