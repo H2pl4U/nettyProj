@@ -4,7 +4,7 @@ package myprotocal;
  * Created by Liuwei on 2020/7/20 11:56
  */
 public enum MessageTypeEnum {
-    REQUEST((byte)1), RESPONSE((byte)2), PING((byte)3), PONG((byte)4), EMPTY((byte)5);
+    REQUEST((byte) 1), RESPONSE((byte) 2), PING((byte) 3), PONG((byte) 4), EMPTY((byte) 5);
 
     private byte type;
 

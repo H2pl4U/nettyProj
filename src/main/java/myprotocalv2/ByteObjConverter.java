@@ -6,13 +6,14 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 /**
- * 编解码工具类
+ * 编解码工具类 2.09
  * Created by Liuwei on 2020/7/21 9:10
  */
 public class ByteObjConverter {
 
     /**
      * 字节转换成对象
+     *
      * @param bytes
      * @return
      */
@@ -42,6 +43,7 @@ public class ByteObjConverter {
 
     /**
      * 对象转换成字节
+     *
      * @param obj
      * @return
      */

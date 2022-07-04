@@ -1,7 +1,6 @@
 package myprotocal;
 
 
-
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -14,7 +13,8 @@ public final class MessageResolverFactory {
     private static final MessageResolverFactory resolverFactory = new MessageResolverFactory();
     private static final List<Resolver> resolvers = new CopyOnWriteArrayList<>();
 
-    private MessageResolverFactory() {}
+    private MessageResolverFactory() {
+    }
 
     // 使用单例模式实例化当前工厂类实例
     public static MessageResolverFactory getInstance() {

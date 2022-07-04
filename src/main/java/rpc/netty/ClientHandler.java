@@ -2,7 +2,9 @@ package rpc.netty;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+
 import java.util.concurrent.Callable;
+
 /**
  * Created by Liuwei on 2020/7/20 14:26
  */
@@ -18,6 +20,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter implements Calla
 
     /**
      * 与服务器的连接已经及建立之后将被调用
+     *
      * @param ctx
      */
     @Override

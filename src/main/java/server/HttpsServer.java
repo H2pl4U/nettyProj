@@ -18,6 +18,7 @@ public class HttpsServer {
 
     /**
      * Https 服务器 base netty (没有SSL证书，启动报错)
+     *
      * @param
      * @throws Exception
      */
@@ -25,7 +26,6 @@ public class HttpsServer {
 //        HttpsServer httpsServer = new HttpsServer(87);
 //        httpsServer.start();
 //    }
-
     public void start() throws Exception {
         ServerBootstrap b = new ServerBootstrap();
         NioEventLoopGroup group = new NioEventLoopGroup();

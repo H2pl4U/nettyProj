@@ -19,7 +19,7 @@ public class NettyClient {
     /**
      * 1.为初始化客户端，创建一个Bootstrap实例
      * 2.为进行事件处理分配了一个NioEventLoopGroup实例，其中事件处理包括创建新的连接以及处理入站和出站数据；
-     * 3.当连接被建立时，一个EchoClientHandler实例会被安装到（该Channel的一个ChannelPipeline中；
+     * 3.当连接被建立时，一个EchoClientHandler实例会被安装到(该Channel的一个ChannelPipeline中)；
      * 4.在一切都设置完成后，调用Bootstrap.connect()方法连接到远程节点。
      */
     public void connect(String host, int port) throws Exception {
