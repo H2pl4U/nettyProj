@@ -1,0 +1,20 @@
+<xsd:element name="service">
+    <xsd:complexType>
+        <xsd:complexContent>
+            <xsd:extension base="beans:identifiedType">
+                <xsd:attribute name="interface" type="xsd:string" use="required"/>
+                <xsd:attribute name="timeout" type="xsd:int" use="required"/>
+                <xsd:attribute name="serverPort" type="xsd:int" use="required"/>
+                <xsd:attribute name="ref" type="xsd:string" use="required"/>
+                <xsd:attribute name="weight" type="xsd:int" use="optional"/>
+                <xsd:attribute name="workerThreads" type="xsd:int" use="optional"/>
+                <xsd:attribute name="appKey" type="xsd:string" use="required"/>
+                <xsd:attribute name="groupName" type="xsd:string" use="optional"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+</xsd:element>
+
+
+mysql
+acid 原子性，一致性，隔离性，持久性
