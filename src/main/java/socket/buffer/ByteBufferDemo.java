@@ -1,4 +1,4 @@
-package buffer;
+package socket.buffer;
 
 import java.nio.ByteBuffer;
 
